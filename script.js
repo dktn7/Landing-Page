@@ -72,21 +72,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const typed1 = new Typed(".auto-type-1", {
         strings: ['<span class="gold-text">Automate</span> Your <span class="blue-text">Workflow</span>.'],
         typeSpeed: 100,
-        backSpeed: 80,  // Speed of deleting
-        startDelay: 500, // Delay before typing starts
-        backDelay: 1500, // How long it stays before deleting
-        loop: true, // Keep looping
-        showCursor: true,
+        loop: false, // Keep looping
+        showCursor: false
     });
 
     const typed2 = new Typed(".auto-type-2", {
         strings: ['<span class="blue-text">Focus</span> on What <span class="gold-text">Matters</span>.'],
         typeSpeed: 100,
         backSpeed: 80, 
-        startDelay: 2500, // Delay after first phrase starts
-        backDelay: 1500,  
-        loop: true,
-        showCursor: true,
+        loop: false,
+        showCursor: false,
     });
 });
 
